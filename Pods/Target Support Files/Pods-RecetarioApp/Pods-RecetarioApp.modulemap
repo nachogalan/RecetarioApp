@@ -1,0 +1,6 @@
+framework module Pods_RecetarioApp {
+  umbrella header "Pods-RecetarioApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
