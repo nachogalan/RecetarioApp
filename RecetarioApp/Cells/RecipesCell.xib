@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecipesCell" rowHeight="93" id="KGk-i7-Jjw" customClass="RecipesCell" customModule="RecetarioApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1dA-9a-Gus">
+                        <rect key="frame" x="0.0" y="0.0" width="92" height="91.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="92" id="V79-i8-kRr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xge-fR-H7x">
+                        <rect key="frame" x="100" y="61" width="204" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sur-Fi-Pcp">
+                        <rect key="frame" x="100" y="11" width="204" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Sur-Fi-Pcp" firstAttribute="trailing" secondItem="xge-fR-H7x" secondAttribute="trailing" id="25P-Cg-5dk"/>
+                    <constraint firstItem="Sur-Fi-Pcp" firstAttribute="leading" secondItem="1dA-9a-Gus" secondAttribute="trailing" constant="8" symbolic="YES" id="4gN-q4-9pt"/>
+                    <constraint firstItem="Sur-Fi-Pcp" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="5Aj-vR-7kq"/>
+                    <constraint firstItem="1dA-9a-Gus" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AKm-rM-Fb7"/>
+                    <constraint firstItem="1dA-9a-Gus" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-16" id="HhB-GO-3k7"/>
+                    <constraint firstItem="xge-fR-H7x" firstAttribute="leading" secondItem="1dA-9a-Gus" secondAttribute="trailing" constant="8" symbolic="YES" id="L0h-vV-sEm"/>
+                    <constraint firstItem="xge-fR-H7x" firstAttribute="top" secondItem="Sur-Fi-Pcp" secondAttribute="bottom" constant="29" id="LhH-w5-qAs"/>
+                    <constraint firstItem="Sur-Fi-Pcp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Tge-L0-hNm"/>
+                    <constraint firstItem="1dA-9a-Gus" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-11" id="ZXX-4l-HBJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgRecipe" destination="1dA-9a-Gus" id="dOO-LZ-4lk"/>
+                <outlet property="lblIngredients" destination="xge-fR-H7x" id="lFr-Pu-pgA"/>
+                <outlet property="lblName" destination="Sur-Fi-Pcp" id="eLJ-wP-OSd"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="76.5"/>
+        </tableViewCell>
+    </objects>
+</document>

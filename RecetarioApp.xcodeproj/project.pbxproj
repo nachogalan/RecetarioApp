@@ -7,20 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D37F0F721B04225001FFDBD /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37F0F521B04225001FFDBD /* RecipesViewController.swift */; };
+		4D37F0F821B04225001FFDBD /* RecipesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37F0F621B04225001FFDBD /* RecipesViewController.xib */; };
+		4D37F0FB21B043BE001FFDBD /* RecipesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37F0F921B043BE001FFDBD /* RecipesCell.swift */; };
+		4D37F0FC21B043BE001FFDBD /* RecipesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37F0FA21B043BE001FFDBD /* RecipesCell.xib */; };
+		4D37F0FE21B04613001FFDBD /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37F0FD21B04613001FFDBD /* Recipes.swift */; };
+		4D37F10221B05D65001FFDBD /* SingularRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37F10021B05D65001FFDBD /* SingularRecipeViewController.swift */; };
+		4D37F10321B05D65001FFDBD /* SingularRecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37F10121B05D65001FFDBD /* SingularRecipeViewController.xib */; };
+		4D42953021B13DAE00EF732B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42952E21B13DAE00EF732B /* MapViewController.swift */; };
+		4D42953121B13DAE00EF732B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D42952F21B13DAE00EF732B /* MapViewController.xib */; };
 		4DA274D421AEA7010068410F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA274D321AEA7010068410F /* AppDelegate.swift */; };
-		4DA274D621AEA7010068410F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA274D521AEA7010068410F /* ViewController.swift */; };
 		4DA274DB21AEA7050068410F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA274DA21AEA7050068410F /* Assets.xcassets */; };
 		4DA274DE21AEA7050068410F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA274DC21AEA7050068410F /* LaunchScreen.storyboard */; };
+		4DA2751C21AEB4AF0068410F /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2751A21AEB4AF0068410F /* CategoryTableViewCell.swift */; };
+		4DA2751D21AEB4AF0068410F /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA2751B21AEB4AF0068410F /* CategoryTableViewCell.xib */; };
+		4DA2752121AEB5FF0068410F /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2751F21AEB5FF0068410F /* CategoriesViewController.swift */; };
+		4DA2752221AEB5FF0068410F /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA2752021AEB5FF0068410F /* CategoriesViewController.xib */; };
+		4DA2752421AEBE470068410F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2752321AEBE470068410F /* Categories.swift */; };
 		EE6D5FEBA0D6F3F1F0F9B1EE /* Pods_RecetarioApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB3BF8A12E5ED7D364D7BD /* Pods_RecetarioApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D37F0F521B04225001FFDBD /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		4D37F0F621B04225001FFDBD /* RecipesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipesViewController.xib; sourceTree = "<group>"; };
+		4D37F0F921B043BE001FFDBD /* RecipesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCell.swift; sourceTree = "<group>"; };
+		4D37F0FA21B043BE001FFDBD /* RecipesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipesCell.xib; sourceTree = "<group>"; };
+		4D37F0FD21B04613001FFDBD /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		4D37F10021B05D65001FFDBD /* SingularRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingularRecipeViewController.swift; sourceTree = "<group>"; };
+		4D37F10121B05D65001FFDBD /* SingularRecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingularRecipeViewController.xib; sourceTree = "<group>"; };
+		4D42952E21B13DAE00EF732B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4D42952F21B13DAE00EF732B /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		4DA274D021AEA7010068410F /* RecetarioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecetarioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA274D321AEA7010068410F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DA274D521AEA7010068410F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DA274DA21AEA7050068410F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA274DD21AEA7050068410F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA274DF21AEA7050068410F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA2751A21AEB4AF0068410F /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		4DA2751B21AEB4AF0068410F /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		4DA2751F21AEB5FF0068410F /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		4DA2752021AEB5FF0068410F /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		4DA2752321AEBE470068410F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		8EBF5199784DBC5B5BB7F7BA /* Pods-RecetarioApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecetarioApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecetarioApp/Pods-RecetarioApp.release.xcconfig"; sourceTree = "<group>"; };
 		8EFB3BF8A12E5ED7D364D7BD /* Pods_RecetarioApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecetarioApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60B75EB7C90469FC9BCA5F0 /* Pods-RecetarioApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecetarioApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecetarioApp/Pods-RecetarioApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +71,33 @@
 				8EBF5199784DBC5B5BB7F7BA /* Pods-RecetarioApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D37F0F421B0420F001FFDBD /* RecipesVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D37F0F521B04225001FFDBD /* RecipesViewController.swift */,
+				4D37F0F621B04225001FFDBD /* RecipesViewController.xib */,
+			);
+			path = RecipesVC;
+			sourceTree = "<group>";
+		};
+		4D37F0FF21B05D2B001FFDBD /* SingularRecipeVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D37F10021B05D65001FFDBD /* SingularRecipeViewController.swift */,
+				4D37F10121B05D65001FFDBD /* SingularRecipeViewController.xib */,
+			);
+			path = SingularRecipeVC;
+			sourceTree = "<group>";
+		};
+		4D42952D21B13D9A00EF732B /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D42952E21B13DAE00EF732B /* MapViewController.swift */,
+				4D42952F21B13DAE00EF732B /* MapViewController.xib */,
+			);
+			path = MapVC;
 			sourceTree = "<group>";
 		};
 		4DA274C721AEA7010068410F = {
@@ -72,7 +125,6 @@
 				4DA274E721AEA9460068410F /* Cells */,
 				4DA274E621AEA92C0068410F /* ViewControllers */,
 				4DA274D321AEA7010068410F /* AppDelegate.swift */,
-				4DA274D521AEA7010068410F /* ViewController.swift */,
 				4DA274DA21AEA7050068410F /* Assets.xcassets */,
 				4DA274DC21AEA7050068410F /* LaunchScreen.storyboard */,
 				4DA274DF21AEA7050068410F /* Info.plist */,
@@ -83,6 +135,10 @@
 		4DA274E621AEA92C0068410F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4D42952D21B13D9A00EF732B /* MapVC */,
+				4D37F0FF21B05D2B001FFDBD /* SingularRecipeVC */,
+				4D37F0F421B0420F001FFDBD /* RecipesVC */,
+				4DA2751E21AEB5D00068410F /* CategoriesVC */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -90,6 +146,10 @@
 		4DA274E721AEA9460068410F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				4DA2751A21AEB4AF0068410F /* CategoryTableViewCell.swift */,
+				4DA2751B21AEB4AF0068410F /* CategoryTableViewCell.xib */,
+				4D37F0F921B043BE001FFDBD /* RecipesCell.swift */,
+				4D37F0FA21B043BE001FFDBD /* RecipesCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -97,8 +157,19 @@
 		4DA274E821AEA94E0068410F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4DA2752321AEBE470068410F /* Categories.swift */,
+				4D37F0FD21B04613001FFDBD /* Recipes.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4DA2751E21AEB5D00068410F /* CategoriesVC */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2751F21AEB5FF0068410F /* CategoriesViewController.swift */,
+				4DA2752021AEB5FF0068410F /* CategoriesViewController.xib */,
+			);
+			path = CategoriesVC;
 			sourceTree = "<group>";
 		};
 		6AD20685A4329B0F7827914E /* Frameworks */ = {
@@ -120,6 +191,7 @@
 				4DA274CC21AEA7010068410F /* Sources */,
 				4DA274CD21AEA7010068410F /* Frameworks */,
 				4DA274CE21AEA7010068410F /* Resources */,
+				A95FA54B510DF63F285151C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,8 +240,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D37F0F821B04225001FFDBD /* RecipesViewController.xib in Resources */,
 				4DA274DE21AEA7050068410F /* LaunchScreen.storyboard in Resources */,
+				4DA2752221AEB5FF0068410F /* CategoriesViewController.xib in Resources */,
+				4D42953121B13DAE00EF732B /* MapViewController.xib in Resources */,
+				4D37F0FC21B043BE001FFDBD /* RecipesCell.xib in Resources */,
 				4DA274DB21AEA7050068410F /* Assets.xcassets in Resources */,
+				4DA2751D21AEB4AF0068410F /* CategoryTableViewCell.xib in Resources */,
+				4D37F10321B05D65001FFDBD /* SingularRecipeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,21 +259,35 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RecetarioApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95FA54B510DF63F285151C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RecetarioApp/Pods-RecetarioApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecetarioApp/Pods-RecetarioApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -205,8 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA274D621AEA7010068410F /* ViewController.swift in Sources */,
 				4DA274D421AEA7010068410F /* AppDelegate.swift in Sources */,
+				4DA2752421AEBE470068410F /* Categories.swift in Sources */,
+				4D37F0FE21B04613001FFDBD /* Recipes.swift in Sources */,
+				4DA2752121AEB5FF0068410F /* CategoriesViewController.swift in Sources */,
+				4D42953021B13DAE00EF732B /* MapViewController.swift in Sources */,
+				4D37F0F721B04225001FFDBD /* RecipesViewController.swift in Sources */,
+				4D37F10221B05D65001FFDBD /* SingularRecipeViewController.swift in Sources */,
+				4D37F0FB21B043BE001FFDBD /* RecipesCell.swift in Sources */,
+				4DA2751C21AEB4AF0068410F /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

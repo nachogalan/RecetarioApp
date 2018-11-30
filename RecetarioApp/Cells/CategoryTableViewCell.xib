@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="categoryCell" rowHeight="180" id="KGk-i7-Jjw" customClass="CategoryTableViewCell" customModule="RecetarioApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k7e-Ti-qrW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tt3-CR-FvB">
+                        <rect key="frame" x="142" y="138" width="36" height="31"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="BMG-8T-pTO"/>
+                            <constraint firstAttribute="height" constant="31" id="IaU-Ty-uYh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKC-Bb-0Jc">
+                        <rect key="frame" x="113" y="11" width="95" height="21"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k7e-Ti-qrW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0SE-YW-Gmw"/>
+                    <constraint firstAttribute="trailing" secondItem="k7e-Ti-qrW" secondAttribute="trailing" id="1uu-Pw-HVj"/>
+                    <constraint firstItem="kKC-Bb-0Jc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="7Q4-uU-eS6"/>
+                    <constraint firstItem="k7e-Ti-qrW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Gsh-H6-tfX"/>
+                    <constraint firstItem="Tt3-CR-FvB" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="HEj-as-lVw"/>
+                    <constraint firstItem="kKC-Bb-0Jc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="97" id="mPV-5O-mcV"/>
+                    <constraint firstItem="k7e-Ti-qrW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="noH-ya-Sao"/>
+                    <constraint firstItem="kKC-Bb-0Jc" firstAttribute="centerX" secondItem="k7e-Ti-qrW" secondAttribute="centerX" id="tD6-Vy-g59"/>
+                    <constraint firstItem="kKC-Bb-0Jc" firstAttribute="centerX" secondItem="Tt3-CR-FvB" secondAttribute="centerX" id="z5x-3k-E7e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgCategory" destination="k7e-Ti-qrW" id="n8q-RZ-ru6"/>
+                <outlet property="lblNumRecepies" destination="Tt3-CR-FvB" id="q94-IZ-NYT"/>
+                <outlet property="lblTitle" destination="kKC-Bb-0Jc" id="7TM-YP-ATR"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="74"/>
+        </tableViewCell>
+    </objects>
+</document>
